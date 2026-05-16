@@ -1,11 +1,16 @@
 {
   "name": "js-backend",
   "version": "1.0.0",
+  "type": "module",
+  "dev": "nodemon src/index.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Hariom",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
